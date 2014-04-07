@@ -1,21 +1,89 @@
-CC      = gcc
-CFLAGS  = -pthread
+1
+Which of these fruits doesn't grow on a tree?
+A) Apple
+B) Grape
+C) Orange
+D) Peach
+? You have 20 seconds..
+B
 
-all : contest main clean
+2
+In the U.S. system, which of the following time intervals is the shortest?
+A) Millisecond
+B) Microsecond 
+C) Picosecond 
+D) Nanosecond
+? You have 20 seconds..
+C
 
-contest: contest.o
-	$(CC) $(CFLAGS) -o contest contest.o
-contest.o: contest.c
-	$(CC) -c $(CFLAGS) contest.c
+3
+What is the name of the cafe where the characters from the TV show "Friends" hang out?
+A) The Peach Pit
+B) MacLaren's Pub
+C) Drunken Clam
+D) Central Perk
+? You have 20 seconds..
+D
 
-main: main.o
-	$(CC) $(CFLAGS) -o main main.o
-main.o: main.c
-	$(CC) -c $(CFLAGS) main.c
+4
+In "Back to the Future", what was printed on the time machine's license plate?
+A) GETBACK
+B) TIMESUP
+C) WHENAMI
+D) OUTATIME
+? You have 20 seconds..
+D
 
-.PHONY: clean realclean 
-clean: 
-	$(RM) *.o
-realclean : clean 
-	$(RM) contest main
+5
+The comic strip character Garfield the cat hates which day of the week? 
+A) Friday
+B) Monday
+C) Sunday 
+D) Wednesday
+? You have 20 seconds..
+B
 
+6
+How many pawns are set up on a chessboard at the start of a game? 
+A) 4 
+B) 8 
+C) 16
+D) 32
+? You have 20 seconds..
+C
+
+7
+British actor/comedian Rowan Atkinson plays which famous character? 
+A) Charlie Chaplin
+B) Mr. Bean
+C) Ace Ventura 
+D) Nasreddin Hoca
+? You have 20 seconds..
+B
+
+8
+In the "Harry Potter" books, what is a "muggle"?
+A) Flying broomstick
+B) Talking hat 
+C) Non-magical person 
+D) Invisibility cloak
+? You have 20 seconds..
+C
+
+9
+In the Bobby Vinton song, "Roses are Red", what color are the violets? 
+A) Blue
+B) Purple
+C) Pink
+D) Green
+? You have 20 seconds..
+A
+
+10
+UNESCO declared 2013 to be the year of which person?
+A) Piri Reis
+B) Yunus Emre
+C) Mevlana
+D) Itri
+? You have 20 seconds..
+A
